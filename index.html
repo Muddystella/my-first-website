@@ -1,0 +1,48 @@
+<!DOCTYPE html> <html lang="en">
+  <head><title></title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css"></head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">How can we improve the Educational System in Nigeria</p>
+    <form id="survey-form">
+    <div class="input-element">
+      <label id="name-label" for="name">Name:</label>
+      <input id="name" type="text" required placeholder="name"></div>
+      <div class="input-element">
+      <label id="email-label">Email:</label>
+    <input id="email" required placeholder="email" type="email">
+    </div>
+    <div class="input-element">
+      <label id="number-label">Age:</label>
+    <input id="number" type="number" min="5" max="50" placeholder="age">
+    </div>
+    <div class="imput-element">
+      <label id="select-label">What is the major set back in our Educational System</label>
+    <select id="dropdown">
+      <option>Uncondusive Environment</option>
+      <option>Lack of instructional materials</option>
+    </select>
+    <div><label>Have you been to a school before?</label></div>
+    <div>
+   <label><input type="radio" name="survey" value="survey">yes</label></div>
+   <div>
+   <label><input type="radio" name="survey" value="survey">No</label>
+    </div>
+    <div>
+      <label>What are your suggestions on how to improve our Educational System.</label>
+    </div>
+      <div>
+        <label><input type="checkbox" value="ideas">A condusive learning environment should be provided.</label>
+      </div>
+      <div>
+        <label><input type="checkbox" value="suggestion">The Government should provide more instructional materials.</label>
+      </div>
+    <div>
+      <label>aditional comments</label><textarea type="text"></textarea>
+    </div>
+    <div>
+    <button type="Submit" id="submit">Submit</button>
+    </div>
+    </form>
+  </body>
